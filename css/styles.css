@@ -1,13 +1,127 @@
-h1 {
-     color:#FF0000;
+/* ================ GLOBAL STYLES =================== */
+ 
+html, body {
+      width:100%;
+      height:100%;
+      margin:0px;
+      padding:0px;
+}
+
+body {
+     background-color:#F1F1F1;
+     font-family:'Source Sans Pro', Trebuchet MS, sans-serif;
+     font-size:16px;
+     /*font-weight:700;*/
+     color:#000000 !important;
+}
+ 
+body {
+     color:#FFFFFF;
+}
+
+h1, h2, h3, h4 {
+     margin:0px;
+     padding:0px;
+     color:#8DC63F; /* THE COLOR IS GRANNY SMITH APPLE GREEN */
 }
 
 p {
-     color:#00FF00;
+     line-height:125%;
+     margin:15px 0px;
 }
 
-.green {
-     
+b, strong {
+     color:#8DC63F;
 }
 
-.red {
+a {
+   color:#8DC63F;
+   text-decoration:none;
+}
+
+a:hover {
+     color:#FF7900;
+}
+
+.mainBody {
+     overflow:hidden;
+     margin:20px auto; /* THE MARGIN AUTO HAS TO BE USED WITH WIDTH */
+     width:1200px;
+}
+
+ 
+/* ==================== HEADER STYLES =================== */
+
+header {
+     background-color:#FFFFFF;
+}
+
+#headerBlock {
+     padding:20px 0px;
+}
+
+#logo a {
+     color:#FF7900; /* SECONDARY COLOR */
+}
+
+#logo a:hover {
+     color:#8DC63F; /* APPLE GREEN */
+}
+
+/* ----------------- MENU NAVIGATION ----------------- */
+
+#menu {
+     position:absolute;
+     top:20px;
+     right:20px;
+}
+
+#menu ul {
+     display:inline-block;
+}
+
+#menu ul li {
+     display:inline;
+     float:left;
+     text-align:center;
+     margin:0px 10px;
+}
+
+.currentPage {
+     color:#FF7900;
+}
+
+
+
+/*
+===================================================
+BANNER STYLES BY ROGER AND DAMON 12.9.2015
+===================================================
+*/
+ 
+
+/* ========== STANDARD STYLES ========== */
+ 
+ 
+/*------------- BUTTON STYLES ------------ */
+ 
+a.button {
+     display:inline-block;
+     padding:10px 18px;
+     background-color:#8DC63F;
+     text-transform:uppercase;
+     font-weight:800;
+     font-size:1.2em;
+     color:#FFFFFF;
+     border-radius:4px;
+     margin:10px 0px;
+}
+
+a.button:hover {
+     background-color:#FF7900;
+     color:#FFFFFF;
+}
+
+ 
+ 
+ 
