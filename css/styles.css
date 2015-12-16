@@ -1,5 +1,7 @@
 /* ================ GLOBAL STYLES =================== */
  
+@import url(https://fonts.googleapis.com/css?family=Pacifico|Amatic+SC:700|Abril+Fatface);
+ 
 html, body {
       width:100%;
       height:100%;
@@ -10,6 +12,9 @@ html, body {
 body {
      background-color:#F1F1F1;
      font-family:'Source Sans Pro', Trebuchet MS, sans-serif;
+     /*font-family: 'Pacifico', cursive;*/
+     /*font-family: 'Amatic SC', cursive;*/
+     /*font-family: 'Abril Fatface', cursive;*/
      font-size:16px;
      /*font-weight:700;*/
      color:#000000 !important;
@@ -54,6 +59,7 @@ a:hover {
 
 header {
      background-color:#FFFFFF;
+     padding:5px 0px;
 }
 
 #headerBlock {
@@ -121,9 +127,10 @@ BANNER STYLES BY ROGER AND DAMON 12.9.2015
       font-size:8.2em;
       /*text-align:center;*/
       text-shadow:7px 7px 10px #000000;
+      font-family: 'Amatic SC', cursive;
  }
  
- /* ==== MAIN SECTION STYLES | INCLUDING COLUMNS ===== */
+ /* ==== MAIN SECTION STYLES | INCLUDING COLUMNS ==== */
  
  .columnA, .columnB, .columnC {
       width:384px;
@@ -140,10 +147,11 @@ BANNER STYLES BY ROGER AND DAMON 12.9.2015
  
  
  .columnA h2, .columnB h2, .columnC h2 {
-      font-size:3.5em;
+      font-size:5.5em;
       font-weight:700;
       text-align:center;
       margin:15px 0px;
+      font-family: 'Amatic SC', cursive;
  }
  
   .columnA p, .columnB p, .columnC p {
@@ -177,13 +185,14 @@ BANNER STYLES BY ROGER AND DAMON 12.9.2015
 a.button {
      display:inline-block;
      padding:10px 18px;
+     margin:10px 0px;
      background-color:#8DC63F;
      text-transform:uppercase;
      font-weight:800;
      font-size:1.2em;
      color:#FFFFFF;
      border-radius:4px;
-     margin:10px 0px;
+     transition:background 0.6s linear 0s, color 0.6s linear 0s;
 }
 
 a.button:hover {
@@ -236,12 +245,18 @@ a.button:hover {
       color:#FFFFFF;
       height:28px;
       width:28px;
+      transition:background 0.6s linear 0s, color 0.6s linear 0s;
+ }
+ 
+ .fa:hover {
+      background-color:#FF7900;
  }
  
  .fa-facebook {background-color:#0C516E;}
+ .fa-facebook:hover {}
  .fa-twitter {background-color:#8CA6D9;}
  
- 
+
  
  
  
