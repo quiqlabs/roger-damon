@@ -99,6 +99,75 @@ BANNER STYLES BY ROGER AND DAMON 12.9.2015
 ===================================================
 */
  
+ #bannerHome {
+      overflow:hidden;
+      padding:100px 0px;
+      border-top:3px solid #8DC63F;
+      background-size:cover;
+      background:url(../images/banner-home-image.jpg) no-repeat top center #FF7900;
+ }
+ 
+  #bannerAbout {
+      overflow:hidden;
+      padding:60px 0px;
+      border-top:3px solid #8DC63F;
+      background-size:200% 200%;
+      -webkit-background-size:100% 100%;
+      background:url() no-repeat center center #FF7900;
+ }
+ 
+ .bannerText {
+      color:#FFFFFF;
+      font-size:8.2em;
+      /*text-align:center;*/
+      text-shadow:7px 7px 10px #000000;
+ }
+ 
+ /* ==== MAIN SECTION STYLES | INCLUDING COLUMNS ===== */
+ 
+ .columnA, .columnB, .columnC {
+      width:384px;
+ }
+
+ .columnA, .columnB {
+      float:left;
+      margin-right:24px;
+ } 
+ 
+ .columnC {
+      float:left;
+ }
+ 
+ 
+ .columnA h2, .columnB h2, .columnC h2 {
+      font-size:3.5em;
+      font-weight:700;
+      text-align:center;
+      margin:15px 0px;
+ }
+ 
+  .columnA p, .columnB p, .columnC p {
+     padding:0px;
+     text-align:justify;
+ }
+ 
+ .column span {
+     background-color:#8DC63F;
+     color:#FFFFFF;
+     display:block;
+     font-size:1.75em;
+     font-weight:600;
+     margin:0px 0px 15px 0px;
+     padding:15px;
+     text-align:center;
+     text-transform:uppercase;
+ }
+ 
+
+ 
+ 
+ 
+ 
 
 /* ========== STANDARD STYLES ========== */
  
@@ -122,6 +191,58 @@ a.button:hover {
      color:#FFFFFF;
 }
 
+ .center {
+      text-align:center;
+ }
+ 
+ /* ========= ABOUT ME STYLES SECTION ========== */
+
+#aboutMe {
+     margin:25px 0px;
+} 
+ 
+ .aside-home-left {
+      width:384px;
+      float:left;
+      margin-right:24px;
+ }
+ 
+ .article-home-right p {
+      text-align:justify;
+ }
+ 
+ 
+ /*FOOTER SECTION | FOOTER STYLES*/
+ 
+ #copyright {
+      overflow:hidden;
+      padding:30px 0px;
+      border-top:3px dotted #8DC63F;
+      background-color:#e7f3d6;
+      display:block;
+      text-align:center;
+ }
+ 
+ 
+ /*------------- SOCIAL MEDIA STYLES -------------- */
+ 
+ .fa {
+      background-color:rgb(141, 198, 63);
+      border:4px solid #FFFFFF;
+      border-radius:100%;
+      font-size:2em !important;
+      margin:15px;
+      padding:10px;
+      color:#FFFFFF;
+      height:28px;
+      width:28px;
+ }
+ 
+ .fa-facebook {background-color:#0C516E;}
+ .fa-twitter {background-color:#8CA6D9;}
+ 
+ 
+ 
  
  
  
