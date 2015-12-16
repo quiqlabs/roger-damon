@@ -115,11 +115,20 @@ BANNER STYLES BY ROGER AND DAMON 12.9.2015
  
   #bannerAbout {
       overflow:hidden;
-      padding:60px 0px;
+      padding:20px 0px;
       border-top:3px solid #8DC63F;
       background-size:200% 200%;
       -webkit-background-size:100% 100%;
       background:url() no-repeat center center #FF7900;
+ }
+ 
+   #bannerContact {
+      overflow:hidden;
+      padding:0px;
+      border-top:3px solid #8DC63F;
+      background-size:200% 200%;
+      -webkit-background-size:100% 100%;
+      background:url() no-repeat center center #2c8e7a;
  }
  
  .bannerText {
@@ -216,6 +225,12 @@ a.button:hover {
       margin-right:24px;
  }
  
+  .aside-home-right {
+      width:384px;
+      float:right;
+      margin-left:24px;
+ }
+ 
  .article-home-right p {
       text-align:justify;
  }
@@ -260,4 +275,4 @@ a.button:hover {
  
  
  
- 
+ /*http://quiqlabs.github.io/roger-damon/*/
